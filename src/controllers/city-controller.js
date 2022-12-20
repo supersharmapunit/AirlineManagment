@@ -37,7 +37,7 @@ const destroy = async (req, res) => {
         return res.status(500).json({
             data: {},
             success: false,
-            message: 'Not able to dalete the city',
+            message: 'Not able to deleted the city',
             err: error
         })
     }
